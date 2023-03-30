@@ -1,0 +1,667 @@
+/* .modal-content{
+  width: 80% !important;
+    margin-left: 182px !important;
+} */
+ /* .modal{
+  --bs-modal-width: 1200px !important;
+} */
+/* .modal-content{
+  width: 50rem !important;
+} */
+.See-more-link{
+  color: blue !important;
+  cursor: pointer
+}
+.profile-message-btn{
+  margin-left: 8rem;
+}
+.user-profile-row{
+  background-color: rgb(244, 234, 234);
+  height: 100%;
+border-radius: 15px;
+}
+.user-profile-col{
+  background-color: #e6e9f3;
+  text-align: center;
+  /* margin-top: 54px !important; */
+  /* border-radius: 15px; */
+}
+.user-profile-col > div{
+ margin-top: 54px !important;
+  /* margin-top: 54px !important; */
+  /* border-radius: 15px; */
+}
+.user-profile-row .card1 img {
+  /* background-color: #e6e7ea; */
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  /* padding: 20px 0px 0px 20px; */
+  margin-left: -33px;
+
+}
+.user-profile-row .card1 {
+  padding: 20px 0px 0px 20px;
+  margin-left: 90px;
+}
+.hr-tag{
+  margin-left: -115px;
+}
+.out-side-div{
+  padding: 3% 10%;
+  height:730px;
+}
+.profile-pic-friendList img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* background-color: red  ; */
+  background-size: contain;
+  cursor: pointer;
+  padding: 5px;
+}
+.send-file{
+  transform: translate(775px,-70px);
+  color: #1c316c;
+  cursor: pointer;
+ height: 70px;
+  width: 70px;
+}
+
+.main {
+  margin-top: 2%;
+  /* margin-left: 20%; */
+  font-size: 15px;
+  padding: 0 10px;
+  width: 75%;
+}
+/* .editP .modal{
+  width: 700px !important;
+} */
+.btn-change-pswd{
+  text-align: center;
+}
+.user-email{
+  text-transform:none;
+}
+.main .card svg{
+  float: right;
+  color: rgb(151, 75, 75);
+  cursor:pointer
+}
+.user-profile-pic{
+  height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ /* background-color: red  ; */
+ background-size: contain;
+ padding: 5px;
+ /* border: 2px solid rgb(161, 145, 145); */
+}
+.user-profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: 2rem;
+  cursor:pointer
+ }
+
+.main .card table {
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  height: 250px;
+  width: 85%;
+}
+.main h4 {
+  color: blue;
+  text-align: center; 
+}
+.main .card {
+  background-color: rgb(246, 240, 240);
+  border-radius: 18px;
+  box-shadow: 1px 1px 8px 0 grey;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 50px;
+}
+.profile-pic{
+  float: right;
+
+}
+.inputMesg {
+  width: 100%;
+  background-color: red;
+}
+.inputMesg input {
+  margin-top: 2rem;
+  width: 90%;
+  float: left;
+  height: 80px;
+  border: 0px;
+  border-radius: 15px 0px 0px 15px !important;
+}
+.inputMesg svg {
+  width: 10% !important;
+  float: right;
+  background-color: #fff;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px !important;
+}
+
+.emoji-section {
+  margin-top: 2rem;
+  color: #1c316c;
+  cursor: pointer;
+  /* background-color: red; */
+}
+.all-notification{
+overflow-y: scroll;
+overflow-x: hidden;
+height: 520px;
+/* padding: 40px; */
+}
+.outerChat {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x:hidden
+}
+.load-message {
+  margin-left: 22rem;
+  cursor: pointer;
+  color: #1c316c;
+}
+.heading-followers p {
+  text-align: center;
+  font-size: 25px;
+}
+.heading-followings p {
+  text-align: center;
+  font-size: 25px;
+}
+.userDefaultIcon {
+  color: #1c316c;
+  font-size: 35px;
+  margin-right: 30px;
+}
+.chat-header .name {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.userDefaultIconWhite {
+  color: #fff;
+  font-size: 35px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.userDefaultNotificationIcon {
+  color: #fff;
+  font-size: 35px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+
+.outerChat .left-side {
+  border: 2px solid #dedede;
+  background-color: rgb(219, 198, 167);
+  border-radius: 20px 0px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: 2rem;
+  float: left;
+  width: 60%;
+}
+.outerChat .right-side {
+  border: 2px solid #dedede;
+  background-color: #1c316c;
+  color: #fff;
+  border-radius: 20px 0px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: 2rem;
+  float: right;
+  width: 60%;
+}
+.right-side div,.left-side div {
+  height: 250px;
+  width: 100%;
+}
+.right-side div img,.left-side div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+ 
+}
+
+.allRequestsButtons {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  background-color: green;
+  margin: 2px 5px;
+}
+.outerCard {
+  text-align: center;
+  margin: 4px 2px;
+}
+
+.buttons {
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.action_btn {
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.card-font-size {
+  font-size: 14px !important;
+}
+
+.innerCard {
+  text-align: center;
+  font-size: 15px !important;
+  text-transform: capitalize;
+}
+
+.innerCard div {
+  text-transform: lowercase !important;
+}
+.postCard {
+  margin-left: 1rem;
+}
+/* .Theme{
+  background-image: url('/data/react-project/learninghyd/public/bg.jpg');
+  background-size: cover;
+} */
+/* .buttonsCard {
+  font-size: 14px;
+    padding: 15px 30px;
+    margin-left: 1rem;
+  } */
+.buttonsCard {
+  font-size: 10px;
+  padding: 12px 28px;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+
+.homeBtn {
+  padding: 2px !important;
+  margin-left: 43px !important;
+  margin-top: -13px;
+}
+
+.allComments {
+  margin-top: 40px;
+}
+
+.headingTitle {
+  color: blue;
+  text-align: center;
+  margin: 2px;
+  padding-top: 4px;
+  font-size: 22px;
+}
+.headingsTitle {
+  color: blue;
+  text-align: center;
+  margin: 20px;
+  padding-top: 13px;
+  font-size: 22px;
+}
+#sidebar,
+#contentbar {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(95, 95, 95);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c2c2c;
+}
+.buttonsCard a {
+  color: black;
+}
+.user {
+  width: 300px;
+  height: 500px;
+  font-family: 'Times New Roman';
+  font-size: 70%;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(233, 235, 236);
+  margin-left: -10.5px;
+}
+.user h5 {
+  text-align: center;
+  box-shadow: 2px 2px rgb(179, 181, 183);
+  height: 50px;
+  padding: 15px;
+  color: black;
+}
+.buts {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  margin-top: 20px;
+  /* user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; */
+}
+
+.buts:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  /* transform: scale(1.05) rotate(-1deg); */
+}
+header {
+  width: 1260px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(179, 181, 183);
+  background: linear-gradient(rgb(240, 225, 139), #f8f3f2b2);
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 600px;
+  height: 600px;
+  width: 1100px;
+  border-radius: 10px;
+  /* padding-top:"50px" !important */
+  /* box-shadow: 4px 4px 4px 4px rgb(179, 181, 183); */
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+  text-transform: capitalize;
+}
+.userPosts {
+  height: 480px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.user1 {
+  width: 750px;
+  height: 600px;
+  margin-left: 251px;
+  margin-top: -625px;
+  text-align: center;
+  border-radius: 10px;
+}
+.rightSide {
+  background-color: #ebeeef;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50rem;
+  padding: 30px;
+}
+.dashboardRightSide {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 15px;
+  margin-right: -26px;
+  margin-left: 18px;
+  /* background-color: red; */
+  height: 530px;
+}
+.main-upload-div{
+height: 530px;
+overflow-x: scroll;
+overflow-x: hidden;
+}
+.head {
+  border-radius: 10px;
+  height: 45px;
+  box-shadow: 2px 2px rgb(179, 181, 183);
+  font-family: 'Times New Roman';
+  margin-top: 80px;
+  font-size: 70%;
+}
+.head h4 {
+  padding: 15px;
+  font-size: 70%;
+  color: black;
+}
+
+.p1 {
+  font-size: x-large;
+  color: black;
+}
+.p1 p {
+  font-size: large;
+}
+.drop {
+  text-align: right;
+  margin-top: -133px;
+  font-family: 'Times New Roman';
+}
+.p2 {
+  margin-top: 350px;
+}
+
+/* Friends List page CSS */
+
+html,
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#friend-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background: #eee;
+  list-style-type: none;
+}
+#friend-list li {
+  height: 80px;
+}
+#friend-list li .name {
+  color: black;
+  width: 100%;
+  padding-left: 1rem;
+}
+#friend-list li .message {
+  width: 100%;
+  margin-right: 30px;
+  color: #49637d;
+  font-size: 12px;
+  font-style: italic;
+}
+.friend {
+  width: 48rem;
+  height: 4rem;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* .friend.selected {
+    background: #43A047;
+    color: white;
+  } */
+
+.friend.selected img {
+  border-color: white;
+}
+
+/* margin-top: 2.5rem;
+  margin-left: -6rem;
+  font-size: 12px; */
+
+.friend:not(.selected):hover {
+  background: #ddd;
+}
+.friends-div {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* ***********************Chating css *****************************8*/
+
+/* .chat-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+} */
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ccc;
+  text-align: right;
+}
+
+/* Clear floats */
+.chat-container::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+/* .chat-container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+} */
+
+/* Style time text */
+.time-left {
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  width: 100%;
+  float: left;
+}
+.time-right {
+  font-size: 12px;
+  color: #000;
+  text-align: right;
+  width: 100%;
+  float: left;
+}
+
+.send-message-button {
+  margin-left: 43rem;
+}
+
+.chat-header img {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  border: 2px solid #aaa;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 13px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  background-color: #26355d;
+  color: white;
+  margin-top: -26px;
+  width: 48.5rem;
+  margin-bottom: 1rem;
+}
+
+.chat-menu {
+  margin-left: 36rem;
+}
+
+
+.default-userPic{
+  width: 100%;
+  height: 55%;
+  padding-top: 7px;
+}
+.default-userPic div{
+  width: 160px;
+  height:160px;
+  border-radius: 50%;
+  margin-left: 2rem;
+  background-size: contain;
+  padding: 4px;
+  border: 2px dotted black;
+}
+.default-userPic img{
+  width: 100%;
+  height:100%;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* .default-userPic div:hover{
+  animation: rotatingBorder 0.3s ease-in-out infinite;
+} */
+@keyframes rotatingBorder {
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+
+
+.main-notification-list {
+  width: 48rem;
+  height: 4rem;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.notification-list{
+  color: #000;
+  margin: 20px;
+}
